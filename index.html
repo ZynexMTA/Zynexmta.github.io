@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ZynexMTA | لیست سرورهای MTA</title>
+    <!-- SEO: Title & Description -->
+    <title>ZynexMTA | بهترین سرورهای MTA:SA فارسی - لیست سرورهای ام تی ای</title>
+    <meta name="description" content="ZynexMTA مرجع معرفی و لیست بهترین سرورهای MTA:SA فارسی است. سرورهای ام تی ای آنلاین را ببین، قوانین را بخوان و مستقیم وارد بازی شو.">
+    <meta name="keywords" content="سرور MTA, سرورهای MTA, بهترین سرور MTA, MTA:SA, Zynex MTA, زاینکس ام تی ای, سرور ام تی ای فارسی, MTA server">
 
+    <!-- SEO: Canonical -->
+    <link rel="canonical" href="https://YOUR-USERNAME.github.io/">
+
+    <!-- SEO: Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ZynexMTA | بهترین سرورهای MTA:SA فارسی">
+    <meta property="og:description" content="لیست بهترین سرورهای MTA:SA فارسی. مستقیم وارد بازی شو.">
+    <meta property="og:url" content="https://YOUR-USERNAME.github.io/">
+    <meta property="og:image" content="https://YOUR-USERNAME.github.io/og-image.jpg">
+    <meta property="og:locale" content="fa_IR">
+    <meta property="og:site_name" content="ZynexMTA">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ZynexMTA | بهترین سرورهای MTA:SA فارسی">
+    <meta name="twitter:description" content="لیست بهترین سرورهای MTA:SA فارسی.">
+    <meta name="twitter:image" content="https://YOUR-USERNAME.github.io/og-image.jpg">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD: Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ZynexMTA",
+      "alternateName": "زاینکس ام تی ای",
+      "url": "https://YOUR-USERNAME.github.io/",
+      "description": "مرجع معرفی و لیست بهترین سرورهای MTA:SA فارسی",
+      "inLanguage": "fa-IR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://YOUR-USERNAME.github.io/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -18,11 +61,11 @@
 <header class="header">
     <div class="container nav">
 
-        <a href="index.html" class="logo">
+        <a href="index.html" class="logo" aria-label="ZynexMTA - صفحه اصلی">
             <span>Zynex</span>MTA
         </a>
 
-        <nav class="menu">
+        <nav class="menu" aria-label="منوی اصلی">
             <a href="index.html" class="active">خانه</a>
             <a href="rules.html">قوانین</a>
             <a href="add-server.html">افزودن سرور</a>
@@ -40,23 +83,25 @@
         <div class="container">
 
             <div class="hero-badge">
-                ● لیست سرورهای MTA:SA
+                ● لیست بهترین سرورهای MTA:SA
             </div>
 
             <h1>
-                سرور مورد نظرت رو
-                <span>پیدا کن</span>
+                بهترین سرورهای
+                <span>MTA:SA فارسی</span>
+                را پیدا کن
             </h1>
 
             <p>
-                سرورهای MTA:SA رو راحت پیدا کن و مستقیماً وارد بازی شو.
+                ZynexMTA مرجع معرفی سرورهای ام تی ای است. سرور مورد نظرت رو راحت پیدا کن و مستقیماً وارد بازی شو.
             </p>
 
             <div class="search-box">
-                <span>⌕</span>
+                <span aria-hidden="true">⌕</span>
                 <input
                     type="text"
                     placeholder="نام سرور یا IP را وارد کنید..."
+                    aria-label="جستجوی سرور MTA"
                 >
             </div>
 
@@ -73,7 +118,7 @@
 
                 <div>
                     <span class="small-title">SERVER LIST</span>
-                    <h2>سرورهای آماده</h2>
+                    <h2>سرورهای آماده MTA:SA</h2>
                 </div>
 
                 <div class="server-count">
@@ -88,11 +133,11 @@
 
                 <!-- SERVER 1 -->
 
-                <article class="server-card">
+                <article class="server-card" itemscope itemtype="https://schema.org/GameServer">
 
                     <div class="server-main">
 
-                        <div class="server-icon">
+                        <div class="server-icon" aria-hidden="true">
                             M
                         </div>
 
@@ -100,7 +145,7 @@
 
                             <div class="server-name-row">
 
-                                <h3>MadLife</h3>
+                                <h3 itemprop="name">MadLife</h3>
 
                                 <span class="online">
                                     <i></i>
@@ -109,7 +154,7 @@
 
                             </div>
 
-                            <p>
+                            <p itemprop="description">
                                 مدلایف رول پلی سرور ارپی ایرانی
                             </p>
 
@@ -127,7 +172,7 @@
 
                         <small>آدرس سرور</small>
 
-                        <code>5.42.223.53:22003</code>
+                        <code itemprop="serverStatus">5.42.223.53:22003</code>
 
                     </div>
 
@@ -135,16 +180,13 @@
                     <a
                         href="mtasa://5.42.223.53:22003"
                         class="connect-btn"
+                        aria-label="ورود به سرور MadLife"
                     >
                         ورود به سرور
-                        <span>←</span>
+                        <span aria-hidden="true">←</span>
                     </a>
 
                 </article>
-
-
-                <!-- SERVER 2 -->
-
 
 
 
@@ -163,7 +205,7 @@
         <div>
             <strong>ZynexMTA</strong>
             <p>
-                مرجع ساده لیست سرورهای MTA:SA
+                مرجع ساده لیست بهترین سرورهای MTA:SA فارسی
             </p>
         </div>
 
